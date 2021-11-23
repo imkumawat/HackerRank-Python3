@@ -1,11 +1,8 @@
 """
-
 Problem URL:
 https://www.hackerrank.com/challenges/python-lists/problem?isFullScreen=true
-
 Task:
 Consider a list (list = []). You can perform the following commands:
-
 insert i e: Insert integer e at position i.
 print: Print the list.
 remove e: Delete the first occurrence of integer e.
@@ -16,7 +13,6 @@ reverse: Reverse the list.
 Initialize your list and read in the value of n followed by n lines of
 commands where each command will be of the 7 types listed above.
 Iterate through each command in order and perform the corresponding operation on your list.
-
 """
 
 if __name__ == '__main__':
@@ -26,7 +22,7 @@ if __name__ == '__main__':
 
         command = input()
 
-        cmd = command.split()
+        cmd = command.split(" ")
         exe = cmd[0]
 
         if exe == 'insert':
